@@ -53,9 +53,7 @@ export default function RegisterPage() {
             {/* CARD — THIS CONTROLS WIDTH */}
             <div className="">
 
-                <p className="text-red-600 font-bold">
-                    RED TEST
-                </p>
+
 
                 <h1 className="text-2xl font-semibold mb-6">
                     Create an Account
