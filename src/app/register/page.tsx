@@ -5,6 +5,9 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
+import { ThemeToggle } from "@/components/ui/theme-toggle"
+
+
 type Errors = {
     name?: string
     email?: string
@@ -49,10 +52,13 @@ export default function RegisterPage() {
     }
 
     return (
+
+
         <div className="max-w-md mx-auto mt-12 p-6 border rounded-lg">
+            <ThemeToggle />
+
             {/* CARD — THIS CONTROLS WIDTH */}
             <div className="">
-
 
 
                 <h1 className="text-2xl font-semibold mb-6">
